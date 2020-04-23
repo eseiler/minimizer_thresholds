@@ -267,7 +267,7 @@ std::vector<double> destroyed_indirectly_by_error(size_t const pattern_size, siz
     std::uniform_int_distribution<> dis2(0, pattern_size - 1);
     std::vector<bool> mins(pattern_size, false);
     std::vector<bool> minse(pattern_size, false);
-    std::vector<double> result(window_size-kmer_size, 0);
+    std::vector<double> result(window_size - kmer_size + 1, 0);
 
     for (size_t iteration = 0; iteration < 10'000; ++iteration)
     {
