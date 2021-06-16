@@ -1,3 +1,7 @@
+# This code was moved to: [https://github.com/seqan/raptor](https://github.com/seqan/raptor/tree/d3dc24da41c29292a37a00e0d96dbc1662bd1bfe/util/thresholding)
+
+---
+---
 
 # Minimizer thresholds
 
